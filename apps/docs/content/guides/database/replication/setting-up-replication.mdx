@@ -72,6 +72,21 @@ You can follow those steps with the following modifications:
 
 </TabPanel>
 
+<TabPanel id="sequin" label="Sequin">
+
+[Sequin](https://sequinstream.com/) streams changes from your Supabase database to destinations like SQS, HTTP webhooks, Elastic, and Redis. Sequin guarantees delivery of every change, in a strict order, with real-time speed. It natively integrates with Supabase and supports the default IPv6 networking. It's built to power use cases like audit logging, replicating with a cache, maintaining a search index, or powering a microservices architecture.
+
+Sequin has a [Supabase setup guide](https://sequinstream.com/docs/how-to/setup-supabase) to walk you through the steps of connecting your Supabase database to Sequin. Here are the steps:
+
+1. Copy the connection string for your Supabase database.
+2. In the Sequin console, click to create a new database and paste in your connection string.
+3. Follow the instructions to add a publication and replication slot to your database.
+4. Create your sink and watch the date flow.
+
+Feel free to join the Sequin [Discord server](https://discord.gg/BV8wFXvNtY) or [Slack community](https://join.slack.com/t/sequin-community/shared_invite/zt-37begzach-4aUwR5xt_XgivdvctZDemA) if you have additional questions.
+
+</TabPanel>
+
 <TabPanel id="stitch" label="Stitch">
 
 Stitch has the following [documentation](https://www.stitchdata.com/docs/integrations/databases/postgresql/v2#extract-data) on configuring Postgres as a source.
